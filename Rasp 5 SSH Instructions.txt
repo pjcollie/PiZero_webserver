@@ -1,0 +1,23 @@
+How to SSH Raspberry Pi 5
+
+ssh paulcollie@192.168.1.205
+
+
+
+Web Server ID
+
+http://192.168.1.205:5000
+
+
+Public IP
+
+http://
+
+EDIT HTML
+
+sudo nano /var/www/html/index.html
+
+Activate App
+Cd epmloyee_web
+
+Then type python3 app.py
