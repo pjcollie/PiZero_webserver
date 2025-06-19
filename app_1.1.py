@@ -63,7 +63,7 @@ def update_employee():
             if employee_found:
                 employee['pdf'] = pdf_filename
             else:
-                employees.append({'name': name, 'tardy': tardy, 'absent': absent, 'pdf': pdf_filename>
+                employees.append({'name': name, 'tardy': tardy, 'absent': absent, 'pdf': pdf_filename>})
     elif not employee_found:
         employees.append({'name': name, 'tardy': tardy, 'absent': absent, 'pdf': None})
 
